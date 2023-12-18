@@ -43,11 +43,6 @@ run () {
     gaiad version --long
     gaiacli version --long
 
-    gaiacli config node mcv-sentry-1.mycosmosvalidator.com:26657
-    gaiacli config trust-node true
-    gaiacli config chain-id cosmoshub-2
-
-
     echo "Gaiacli and Gaiad successfully installed"
     echo ""
     echo ""
